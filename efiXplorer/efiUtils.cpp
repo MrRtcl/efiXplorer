@@ -59,18 +59,28 @@ static const char plugin_name[] = "efiXplorer";
 // Create EFI_GUID structure
 void createGuidStructure(ea_t ea) {
     static const char struct_name[] = "_EFI_GUID";
-    struc_t *sptr = get_struc(get_struc_id(struct_name));
-    if (sptr == nullptr) {
-        sptr = get_struc(add_struc(-1, struct_name));
-        if (sptr == nullptr)
+    tid_t sid = get_struc_id((char *)struct_name);
+    if(sid == BADADDR){
+        sid = add_struc(-1, (char *)struct_name);
+        if(sid == BADADDR)
             return;
-        add_struc_member(sptr, "data1", -1, dword_flag(), NULL, 4);
-        add_struc_member(sptr, "data2", -1, word_flag(), NULL, 2);
-        add_struc_member(sptr, "data3", -1, word_flag(), NULL, 2);
-        add_struc_member(sptr, "data4", -1, byte_flag(), NULL, 8);
+        add_struc_member(sid, "data1", -1, tinfo_t(BTF_UINT32), 4);
+        add_struc_member(sid, "data2", -1, tinfo_t(BTF_UINT16), 2);
+        add_struc_member(sid, "data3", -1, tinfo_t(BTF_UINT16), 2);
+        add_struc_member(sid, "data4", -1, tinfo_t(BTF_UINT64), 8);
     }
-    asize_t size = get_struc_size(sptr);
-    create_struct(ea, size, sptr->id);
+    // struc_t *sptr = get_struc(get_struc_id(struct_name));
+    // if (sptr == nullptr) {
+    //     sptr = get_struc(add_struc(-1, struct_name));
+    //     if (sptr == nullptr)
+    //         return;
+    //     add_struc_member(sptr, "data1", -1, dword_flag(), NULL, 4);
+    //     add_struc_member(sptr, "data2", -1, word_flag(), NULL, 2);
+    //     add_struc_member(sptr, "data3", -1, word_flag(), NULL, 2);
+    //     add_struc_member(sptr, "data4", -1, byte_flag(), NULL, 8);
+    // }
+    // asize_t size = get_struc_size(sptr);
+    // create_struct(ea, size, sptr->id);
 }
 
 //--------------------------------------------------------------------------
@@ -114,7 +124,7 @@ std::string getFileFormatName() {
 // Get input file type (64-bit, 32-bit image or UEFI firmware)
 uint8_t getInputFileType() {
     processor_t &ph = PH;
-    auto filetype = (filetype_t)inf.filetype;
+    auto filetype = inf_get_filetype();
     auto bits = inf_is_64bit() ? 64 : inf_is_32bit_exactly() ? 32 : 16;
 
     // check if input file is UEFI firmware image
@@ -333,7 +343,7 @@ std::vector<ea_t> getXrefsToArray(ea_t addr) {
 bool opStroff(ea_t addr, std::string type) {
     insn_t insn;
     decode_insn(&insn, addr);
-    tid_t struc_id = get_struc_id(type.c_str());
+    tid_t struc_id = get_struc_id((char *)type.c_str());
     return op_stroff(insn, 0, &struc_id, 1, 0);
 }
 
@@ -516,15 +526,13 @@ bool addStrucForShiftedPtr() {
         return false;
     }
 
-    auto new_struct = get_struc(sid);
-    if (new_struct == nullptr) {
-        return false;
-    }
+    // auto new_struct = get_struc(sid);
+    // if (new_struct == nullptr) {
+    //     return false;
+    // }
 
-    add_struc_member(new_struct, nullptr, 0, dword_flag(), nullptr, 4);
-    add_struc_member(new_struct, nullptr, 4, dword_flag(), nullptr, 4);
-    set_member_name(new_struct, 0, "PeiServices");
-    set_member_name(new_struct, 4, "PeiServices4");
+    add_struc_member(sid, "PeiServices", 0, tinfo_t(BTF_UINT32), 4);
+    add_struc_member(sid, "PeiServices4", 4, tinfo_t(BTF_UINT32), 4);
 
     tinfo_t tinfo;
     if (!tinfo.get_named_type(get_idati(), "EFI_PEI_SERVICES")) {
@@ -537,8 +545,8 @@ bool addStrucForShiftedPtr() {
     ptrTinfo.create_ptr(tinfo);
     ptr2Tinfo.create_ptr(ptrTinfo);
 
-    auto member = get_member_by_name(new_struct, "PeiServices");
-    set_member_tinfo(new_struct, member, 0, ptr2Tinfo, 0);
+    auto member = get_member_by_name(sid, "PeiServices");
+    set_member_tinfo(sid, member, ptr2Tinfo);
 
     return true;
 }
@@ -648,7 +656,7 @@ std::vector<ea_t> searchProtocol(std::string protocol) {
     std::copy(guid_bytes.begin(), guid_bytes.end(), bytes);
     ea_t start = 0;
     while (true) {
-        ea_t addr = bin_search2(start, BADADDR, bytes, nullptr, 16, BIN_SEARCH_FORWARD);
+        ea_t addr = bin_search3(start, BADADDR, bytes, nullptr, 16, BIN_SEARCH_FORWARD);
         if (addr == BADADDR) {
             break;
         }
@@ -830,22 +838,22 @@ std::string typeToName(std::string type) {
 }
 
 xreflist_t xrefsToStackVar(ea_t funcEa, qstring varName) {
-    struc_t *frame = get_frame(funcEa);
+    tinfo_t tif;
+    get_func_frame(&tif, funcEa);
     func_t *func = get_func(funcEa);
-    member_t member; // Get member by name
+    udm_t member;
     bool found = false;
-    for (int i = 0; i < frame->memqty; i++) {
-        member = frame->members[i];
-        qstring name;
-        get_member_name(&name, frame->members[i].id);
-        if (name == varName) {
+    for (int i = 0; i < tif.get_udt_nmembers(); i++) {
+        tid_t member_id = tif.get_udm_tid(i);
+        tif.get_udm_by_tid(&member,member_id);
+        if (member.name == varName) {
             found = true;
             break;
         }
     }
     xreflist_t xrefs_list; // Get xrefs
     if (found) {
-        build_stkvar_xrefs(&xrefs_list, func, &member);
+        build_stkvar_xrefs(&xrefs_list, func, member.offset/8, (member.offset+member.size)/8);
     }
     return xrefs_list;
 }
@@ -944,7 +952,7 @@ std::vector<ea_t> findData(ea_t start_ea, ea_t end_ea, uchar *data, size_t len) 
     ea_t start = start_ea;
     int counter = 0;
     while (true) {
-        auto ea = bin_search2(start, end_ea, data, nullptr, len, BIN_SEARCH_FORWARD);
+        auto ea = bin_search3(start, end_ea, data, nullptr, len, BIN_SEARCH_FORWARD);
         if (ea == BADADDR) {
             break;
         }

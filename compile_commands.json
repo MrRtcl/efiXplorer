@@ -1,0 +1,776 @@
+[
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerArm.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiAnalyzerArm.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiAnalyzerArm.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerArm.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerX86.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiAnalyzerX86.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiAnalyzerX86.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerX86.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea32.dir/efiDeps.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiDeps.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiDeps.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiDeps.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea32.dir/efiGlobal.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiGlobal.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiGlobal.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiGlobal.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea32.dir/efiSmmUtils.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiSmmUtils.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiSmmUtils.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiSmmUtils.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea32.dir/efiUi.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiUi.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiUi.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUi.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea32.dir/efiUtils.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiUtils.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiUtils.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUtils.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea32.dir/efiXplorer.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiXplorer.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiXplorer.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiXplorer.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -DefiXplorer_dylib_EXPORTS -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -Wno-non-virtual-dtor -Wno-varargs -o CMakeFiles/efiXplorer.dylib.dir/efiXplorer.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiXplorer.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiXplorer.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer.dylib.dir/efiXplorer.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerArm.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiAnalyzerArm.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiAnalyzerArm.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerArm.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerX86.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiAnalyzerX86.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiAnalyzerX86.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerX86.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea64.dir/efiDeps.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiDeps.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiDeps.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiDeps.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea64.dir/efiGlobal.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiGlobal.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiGlobal.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiGlobal.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea64.dir/efiSmmUtils.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiSmmUtils.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiSmmUtils.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiSmmUtils.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea64.dir/efiUi.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiUi.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiUi.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUi.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea64.dir/efiUtils.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiUtils.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiUtils.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUtils.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXplorer_lib_ea64.dir/efiXplorer.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiXplorer.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiXplorer.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiXplorer.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -DefiXplorer64_dylib_EXPORTS -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -Wno-non-virtual-dtor -Wno-varargs -o CMakeFiles/efiXplorer64.dylib.dir/efiXplorer.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiXplorer.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/efiXplorer.cpp",
+  "output": "efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/efiXplorer.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/efiLoader.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/efiLoader.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/efiLoader.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/efiLoader.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/pe.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/pe.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/pe.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/pe_manager.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/pe_manager.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/pe_manager.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe_manager.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/uefitool.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/uefitool.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/uefitool.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/uefitool.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/utils.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/utils.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/utils.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/utils.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/LzmaCompress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/LzmaCompress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/LzmaDecompress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/LzmaDecompress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/Bra.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/Bra.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/Bra86.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/Bra86.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzFind.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzFind.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoCompress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoCompress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoDecompress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoDecompress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrlib.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/bstrlib/bstrlib.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/bstrlib/bstrlib.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrlib.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/bstrlib/bstrwrap.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/bstrlib/bstrwrap.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/descriptor.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/descriptor.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/descriptor.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/descriptor.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha1.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha1.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha1.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha1.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha256.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha256.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha256.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha256.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha512.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha512.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha512.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha512.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sm3.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sm3.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sm3.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sm3.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffs.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffs.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffs.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffs.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsbuilder.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsbuilder.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsbuilder.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsbuilder.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsops.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsops.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsops.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsops.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsparser.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsparser.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsparser.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsparser.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsreport.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsreport.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsreport.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsreport.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/filesystem.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/filesystem.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/filesystem.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/filesystem.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/fitparser.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/fitparser.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/fitparser.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/fitparser.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/guiddatabase.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/guiddatabase.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/guiddatabase.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/guiddatabase.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/meparser.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/meparser.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/meparser.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/meparser.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvram.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/nvram.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/nvram.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvram.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvramparser.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/nvramparser.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/nvramparser.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvramparser.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/peimage.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/peimage.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/peimage.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/peimage.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treeitem.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/treeitem.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/treeitem.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treeitem.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treemodel.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/treemodel.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/treemodel.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treemodel.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/types.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/types.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/types.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/types.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ustring.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ustring.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ustring.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ustring.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/utility.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/utility.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/utility.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/utility.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/adler32.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/adler32.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/adler32.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/adler32.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/compress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/compress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/compress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/compress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/crc32.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/crc32.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/crc32.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/crc32.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/deflate.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/deflate.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/deflate.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/deflate.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzclose.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzclose.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzclose.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzclose.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzlib.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzlib.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzlib.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzlib.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzread.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzread.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzread.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzread.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzwrite.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzwrite.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzwrite.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzwrite.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/infback.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/infback.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/infback.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/infback.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inffast.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inffast.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inffast.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inffast.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inflate.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inflate.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inflate.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inflate.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inftrees.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inftrees.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inftrees.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inftrees.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/trees.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/trees.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/trees.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/trees.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/uncompr.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/uncompr.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/uncompr.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/uncompr.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/zutil.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/zutil.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/zutil.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/zutil.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__ -DefiXloader64_dylib_EXPORTS -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fPIC -Wno-non-virtual-dtor -Wno-varargs -o CMakeFiles/efiXloader64.dylib.dir/efiLoader.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/efiLoader.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/efiLoader.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader64.dylib.dir/efiLoader.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/efiLoader.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/efiLoader.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/efiLoader.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/efiLoader.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/pe.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/pe.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/pe.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/pe_manager.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/pe_manager.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/pe_manager.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe_manager.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/uefitool.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/uefitool.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/uefitool.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/uefitool.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/utils.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/utils.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/utils.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/utils.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/LzmaCompress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/LzmaCompress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/LzmaDecompress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/LzmaDecompress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/Bra.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/Bra.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/Bra86.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/Bra86.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzFind.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzFind.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoCompress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoCompress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoDecompress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/Tiano/EfiTianoDecompress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrlib.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/bstrlib/bstrlib.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/bstrlib/bstrlib.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrlib.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/bstrlib/bstrwrap.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/bstrlib/bstrwrap.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/descriptor.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/descriptor.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/descriptor.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/descriptor.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha1.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha1.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha1.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha1.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha256.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha256.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha256.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha256.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha512.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha512.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sha512.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha512.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sm3.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sm3.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/digest/sm3.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sm3.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffs.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffs.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffs.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffs.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsbuilder.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsbuilder.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsbuilder.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsbuilder.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsops.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsops.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsops.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsops.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsparser.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsparser.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsparser.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsparser.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsreport.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsreport.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ffsreport.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsreport.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/filesystem.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/filesystem.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/filesystem.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/filesystem.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/fitparser.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/fitparser.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/fitparser.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/fitparser.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/guiddatabase.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/guiddatabase.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/guiddatabase.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/guiddatabase.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/meparser.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/meparser.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/meparser.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/meparser.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvram.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/nvram.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/nvram.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvram.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvramparser.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/nvramparser.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/nvramparser.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvramparser.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/peimage.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/peimage.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/peimage.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/peimage.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treeitem.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/treeitem.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/treeitem.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treeitem.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treemodel.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/treemodel.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/treemodel.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treemodel.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/types.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/types.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/types.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/types.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ustring.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ustring.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/ustring.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ustring.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/utility.cpp.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/utility.cpp",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/utility.cpp",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/utility.cpp.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/adler32.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/adler32.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/adler32.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/adler32.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/compress.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/compress.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/compress.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/compress.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/crc32.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/crc32.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/crc32.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/crc32.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/deflate.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/deflate.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/deflate.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/deflate.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzclose.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzclose.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzclose.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzclose.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzlib.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzlib.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzlib.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzlib.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzread.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzread.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzread.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzread.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzwrite.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzwrite.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/gzwrite.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzwrite.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/infback.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/infback.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/infback.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/infback.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inffast.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inffast.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inffast.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inffast.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inflate.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inflate.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inflate.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inflate.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inftrees.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inftrees.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/inftrees.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inftrees.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/trees.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/trees.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/trees.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/trees.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/uncompr.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/uncompr.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/uncompr.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/uncompr.c.o"
+},
+{
+  "directory": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__IDP__ -D__MAC__ -D__X64__ -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/zutil.c.o -c /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/zutil.c",
+  "file": "/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/3rd/uefitool/common/zlib/zutil.c",
+  "output": "efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/zutil.c.o"
+}
+]

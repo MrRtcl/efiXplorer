@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libefiXplorer_lib_ea32.a CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerArm.cpp.o CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerX86.cpp.o CMakeFiles/efiXplorer_lib_ea32.dir/efiDeps.cpp.o CMakeFiles/efiXplorer_lib_ea32.dir/efiGlobal.cpp.o CMakeFiles/efiXplorer_lib_ea32.dir/efiSmmUtils.cpp.o CMakeFiles/efiXplorer_lib_ea32.dir/efiUi.cpp.o CMakeFiles/efiXplorer_lib_ea32.dir/efiUtils.cpp.o CMakeFiles/efiXplorer_lib_ea32.dir/efiXplorer.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libefiXplorer_lib_ea32.a

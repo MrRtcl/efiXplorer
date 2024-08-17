@@ -21,6 +21,7 @@
 #include "efiLoader.h"
 #include "uefitool.h"
 #include "utils.h"
+#include <shim.hpp>
 
 #define USE_UEFITOOL_PARSER
 

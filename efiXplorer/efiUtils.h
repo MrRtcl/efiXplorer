@@ -44,7 +44,7 @@
 #include <pro.h>
 #include <stdio.h>
 #include <string>
-#include <struct.hpp>
+#include <shim.hpp>
 #include <typeinf.hpp>
 
 #ifdef HEX_RAYS
