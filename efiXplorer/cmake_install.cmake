@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer
+# Install script for directory: /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/efiXplorer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

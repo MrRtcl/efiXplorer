@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chenchengxi/Desktop/MyProject/efiXplorer
+CMAKE_SOURCE_DIR = /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chenchengxi/Desktop/MyProject/efiXplorer
+CMAKE_BINARY_DIR = /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(CMAKE_COMMAND) -E cmake_progress_start /Users/chenchengxi/Desktop/MyProject/efiXplorer/CMakeFiles /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer//CMakeFiles/progress.marks
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chenchengxi/Desktop/MyProject/efiXplorer/CMakeFiles 0
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(CMAKE_COMMAND) -E cmake_progress_start /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/CMakeFiles /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/efiXplorer//CMakeFiles/progress.marks
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/clean
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/preinstall
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/preinstall
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 efiXplorer/CMakeFiles/efiXplorer.dylib.dir/rule:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/CMakeFiles/efiXplorer.dylib.dir/rule
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/CMakeFiles/efiXplorer.dylib.dir/rule
 .PHONY : efiXplorer/CMakeFiles/efiXplorer.dylib.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ efiXplorer.dylib: efiXplorer/CMakeFiles/efiXplorer.dylib.dir/rule
 
 # fast build rule for target.
 efiXplorer.dylib/fast:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build
 .PHONY : efiXplorer.dylib/fast
 
 # Convenience name for target.
 efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/rule:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/rule
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/rule
 .PHONY : efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ efiXplorer64.dylib: efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/rule
 
 # fast build rule for target.
 efiXplorer64.dylib/fast:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build
 .PHONY : efiXplorer64.dylib/fast
 
 # Convenience name for target.
 efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/rule:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/rule
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/rule
 .PHONY : efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ efiXplorer_lib_ea32: efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/rule
 
 # fast build rule for target.
 efiXplorer_lib_ea32/fast:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build
 .PHONY : efiXplorer_lib_ea32/fast
 
 # Convenience name for target.
 efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/rule:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/rule
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/rule
 .PHONY : efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/rule
 
 # Convenience name for target.
@@ -169,7 +169,7 @@ efiXplorer_lib_ea64: efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/rule
 
 # fast build rule for target.
 efiXplorer_lib_ea64/fast:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build
 .PHONY : efiXplorer_lib_ea64/fast
 
 efiAnalyzerArm.o: efiAnalyzerArm.cpp.o
@@ -177,8 +177,8 @@ efiAnalyzerArm.o: efiAnalyzerArm.cpp.o
 
 # target to build an object file
 efiAnalyzerArm.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerArm.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerArm.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerArm.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerArm.cpp.o
 .PHONY : efiAnalyzerArm.cpp.o
 
 efiAnalyzerArm.i: efiAnalyzerArm.cpp.i
@@ -186,8 +186,8 @@ efiAnalyzerArm.i: efiAnalyzerArm.cpp.i
 
 # target to preprocess a source file
 efiAnalyzerArm.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerArm.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerArm.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerArm.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerArm.cpp.i
 .PHONY : efiAnalyzerArm.cpp.i
 
 efiAnalyzerArm.s: efiAnalyzerArm.cpp.s
@@ -195,8 +195,8 @@ efiAnalyzerArm.s: efiAnalyzerArm.cpp.s
 
 # target to generate assembly for a file
 efiAnalyzerArm.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerArm.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerArm.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerArm.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerArm.cpp.s
 .PHONY : efiAnalyzerArm.cpp.s
 
 efiAnalyzerX86.o: efiAnalyzerX86.cpp.o
@@ -204,8 +204,8 @@ efiAnalyzerX86.o: efiAnalyzerX86.cpp.o
 
 # target to build an object file
 efiAnalyzerX86.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerX86.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerX86.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerX86.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerX86.cpp.o
 .PHONY : efiAnalyzerX86.cpp.o
 
 efiAnalyzerX86.i: efiAnalyzerX86.cpp.i
@@ -213,8 +213,8 @@ efiAnalyzerX86.i: efiAnalyzerX86.cpp.i
 
 # target to preprocess a source file
 efiAnalyzerX86.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerX86.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerX86.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerX86.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerX86.cpp.i
 .PHONY : efiAnalyzerX86.cpp.i
 
 efiAnalyzerX86.s: efiAnalyzerX86.cpp.s
@@ -222,8 +222,8 @@ efiAnalyzerX86.s: efiAnalyzerX86.cpp.s
 
 # target to generate assembly for a file
 efiAnalyzerX86.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerX86.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerX86.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiAnalyzerX86.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiAnalyzerX86.cpp.s
 .PHONY : efiAnalyzerX86.cpp.s
 
 efiDeps.o: efiDeps.cpp.o
@@ -231,8 +231,8 @@ efiDeps.o: efiDeps.cpp.o
 
 # target to build an object file
 efiDeps.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiDeps.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiDeps.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiDeps.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiDeps.cpp.o
 .PHONY : efiDeps.cpp.o
 
 efiDeps.i: efiDeps.cpp.i
@@ -240,8 +240,8 @@ efiDeps.i: efiDeps.cpp.i
 
 # target to preprocess a source file
 efiDeps.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiDeps.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiDeps.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiDeps.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiDeps.cpp.i
 .PHONY : efiDeps.cpp.i
 
 efiDeps.s: efiDeps.cpp.s
@@ -249,8 +249,8 @@ efiDeps.s: efiDeps.cpp.s
 
 # target to generate assembly for a file
 efiDeps.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiDeps.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiDeps.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiDeps.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiDeps.cpp.s
 .PHONY : efiDeps.cpp.s
 
 efiGlobal.o: efiGlobal.cpp.o
@@ -258,8 +258,8 @@ efiGlobal.o: efiGlobal.cpp.o
 
 # target to build an object file
 efiGlobal.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiGlobal.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiGlobal.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiGlobal.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiGlobal.cpp.o
 .PHONY : efiGlobal.cpp.o
 
 efiGlobal.i: efiGlobal.cpp.i
@@ -267,8 +267,8 @@ efiGlobal.i: efiGlobal.cpp.i
 
 # target to preprocess a source file
 efiGlobal.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiGlobal.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiGlobal.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiGlobal.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiGlobal.cpp.i
 .PHONY : efiGlobal.cpp.i
 
 efiGlobal.s: efiGlobal.cpp.s
@@ -276,8 +276,8 @@ efiGlobal.s: efiGlobal.cpp.s
 
 # target to generate assembly for a file
 efiGlobal.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiGlobal.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiGlobal.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiGlobal.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiGlobal.cpp.s
 .PHONY : efiGlobal.cpp.s
 
 efiSmmUtils.o: efiSmmUtils.cpp.o
@@ -285,8 +285,8 @@ efiSmmUtils.o: efiSmmUtils.cpp.o
 
 # target to build an object file
 efiSmmUtils.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiSmmUtils.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiSmmUtils.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiSmmUtils.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiSmmUtils.cpp.o
 .PHONY : efiSmmUtils.cpp.o
 
 efiSmmUtils.i: efiSmmUtils.cpp.i
@@ -294,8 +294,8 @@ efiSmmUtils.i: efiSmmUtils.cpp.i
 
 # target to preprocess a source file
 efiSmmUtils.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiSmmUtils.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiSmmUtils.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiSmmUtils.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiSmmUtils.cpp.i
 .PHONY : efiSmmUtils.cpp.i
 
 efiSmmUtils.s: efiSmmUtils.cpp.s
@@ -303,8 +303,8 @@ efiSmmUtils.s: efiSmmUtils.cpp.s
 
 # target to generate assembly for a file
 efiSmmUtils.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiSmmUtils.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiSmmUtils.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiSmmUtils.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiSmmUtils.cpp.s
 .PHONY : efiSmmUtils.cpp.s
 
 efiUi.o: efiUi.cpp.o
@@ -312,8 +312,8 @@ efiUi.o: efiUi.cpp.o
 
 # target to build an object file
 efiUi.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUi.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUi.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUi.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUi.cpp.o
 .PHONY : efiUi.cpp.o
 
 efiUi.i: efiUi.cpp.i
@@ -321,8 +321,8 @@ efiUi.i: efiUi.cpp.i
 
 # target to preprocess a source file
 efiUi.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUi.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUi.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUi.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUi.cpp.i
 .PHONY : efiUi.cpp.i
 
 efiUi.s: efiUi.cpp.s
@@ -330,8 +330,8 @@ efiUi.s: efiUi.cpp.s
 
 # target to generate assembly for a file
 efiUi.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUi.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUi.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUi.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUi.cpp.s
 .PHONY : efiUi.cpp.s
 
 efiUtils.o: efiUtils.cpp.o
@@ -339,8 +339,8 @@ efiUtils.o: efiUtils.cpp.o
 
 # target to build an object file
 efiUtils.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUtils.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUtils.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUtils.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUtils.cpp.o
 .PHONY : efiUtils.cpp.o
 
 efiUtils.i: efiUtils.cpp.i
@@ -348,8 +348,8 @@ efiUtils.i: efiUtils.cpp.i
 
 # target to preprocess a source file
 efiUtils.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUtils.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUtils.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUtils.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUtils.cpp.i
 .PHONY : efiUtils.cpp.i
 
 efiUtils.s: efiUtils.cpp.s
@@ -357,8 +357,8 @@ efiUtils.s: efiUtils.cpp.s
 
 # target to generate assembly for a file
 efiUtils.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUtils.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUtils.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiUtils.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiUtils.cpp.s
 .PHONY : efiUtils.cpp.s
 
 efiXplorer.o: efiXplorer.cpp.o
@@ -366,10 +366,10 @@ efiXplorer.o: efiXplorer.cpp.o
 
 # target to build an object file
 efiXplorer.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer.dylib.dir/efiXplorer.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/efiXplorer.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiXplorer.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiXplorer.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer.dylib.dir/efiXplorer.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/efiXplorer.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiXplorer.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiXplorer.cpp.o
 .PHONY : efiXplorer.cpp.o
 
 efiXplorer.i: efiXplorer.cpp.i
@@ -377,10 +377,10 @@ efiXplorer.i: efiXplorer.cpp.i
 
 # target to preprocess a source file
 efiXplorer.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer.dylib.dir/efiXplorer.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/efiXplorer.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiXplorer.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiXplorer.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer.dylib.dir/efiXplorer.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/efiXplorer.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiXplorer.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiXplorer.cpp.i
 .PHONY : efiXplorer.cpp.i
 
 efiXplorer.s: efiXplorer.cpp.s
@@ -388,10 +388,10 @@ efiXplorer.s: efiXplorer.cpp.s
 
 # target to generate assembly for a file
 efiXplorer.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer.dylib.dir/efiXplorer.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/efiXplorer.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiXplorer.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiXplorer.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer.dylib.dir/efiXplorer.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/build.make efiXplorer/CMakeFiles/efiXplorer64.dylib.dir/efiXplorer.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea32.dir/efiXplorer.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/build.make efiXplorer/CMakeFiles/efiXplorer_lib_ea64.dir/efiXplorer.cpp.s
 .PHONY : efiXplorer.cpp.s
 
 # Help Target
@@ -441,6 +441,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

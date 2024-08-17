@@ -5,7 +5,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 C_DEFINES = -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__
 
-C_INCLUDES = -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include
+C_INCLUDES = -I/Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/./modify -I/Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include
 
 C_FLAGSarm64 = -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 
@@ -13,7 +13,7 @@ C_FLAGS = -fPIC -arch x86_64 -arch arm64 -arch arm64 -isysroot /Library/Develope
 
 CXX_DEFINES = -DUSE_DANGEROUS_FUNCTIONS -DUSE_STANDARD_FILE_FUNCTIONS -D__EA64__ -D__IDP__ -D__MAC__ -D__X64__
 
-CXX_INCLUDES = -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include
+CXX_INCLUDES = -I/Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/./modify -I/Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/efiXloader/../efiXplorer/3rd/nlohmann_json -I/Users/chenchengxi/Desktop/MyProject/efiXplorer/idasdk90/include
 
 CXX_FLAGSarm64 = -fPIC -arch x86_64 -arch arm64 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 

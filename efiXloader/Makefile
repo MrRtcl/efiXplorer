@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chenchengxi/Desktop/MyProject/efiXplorer
+CMAKE_SOURCE_DIR = /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chenchengxi/Desktop/MyProject/efiXplorer
+CMAKE_BINARY_DIR = /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(CMAKE_COMMAND) -E cmake_progress_start /Users/chenchengxi/Desktop/MyProject/efiXplorer/CMakeFiles /Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader//CMakeFiles/progress.marks
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chenchengxi/Desktop/MyProject/efiXplorer/CMakeFiles 0
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(CMAKE_COMMAND) -E cmake_progress_start /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/CMakeFiles /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/efiXloader//CMakeFiles/progress.marks
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/clean
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/preinstall
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/preinstall
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 efiXloader/CMakeFiles/efiXloader64.dylib.dir/rule:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/CMakeFiles/efiXloader64.dylib.dir/rule
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/CMakeFiles/efiXloader64.dylib.dir/rule
 .PHONY : efiXloader/CMakeFiles/efiXloader64.dylib.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ efiXloader64.dylib: efiXloader/CMakeFiles/efiXloader64.dylib.dir/rule
 
 # fast build rule for target.
 efiXloader64.dylib/fast:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader64.dylib.dir/build.make efiXloader/CMakeFiles/efiXloader64.dylib.dir/build
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader64.dylib.dir/build.make efiXloader/CMakeFiles/efiXloader64.dylib.dir/build
 .PHONY : efiXloader64.dylib/fast
 
 # Convenience name for target.
 efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/rule:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/rule
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/rule
 .PHONY : efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ efiXloader_lib_ea32: efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/rule
 
 # fast build rule for target.
 efiXloader_lib_ea32/fast:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build
 .PHONY : efiXloader_lib_ea32/fast
 
 # Convenience name for target.
 efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/rule:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/rule
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/rule
 .PHONY : efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ efiXloader_lib_ea64: efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/rule
 
 # fast build rule for target.
 efiXloader_lib_ea64/fast:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build
 .PHONY : efiXloader_lib_ea64/fast
 
 3rd/uefitool/common/LZMA/LzmaCompress.o: 3rd/uefitool/common/LZMA/LzmaCompress.c.o
@@ -163,8 +163,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/LZMA/LzmaCompress.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.o
 .PHONY : 3rd/uefitool/common/LZMA/LzmaCompress.c.o
 
 3rd/uefitool/common/LZMA/LzmaCompress.i: 3rd/uefitool/common/LZMA/LzmaCompress.c.i
@@ -172,8 +172,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/LZMA/LzmaCompress.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.i
 .PHONY : 3rd/uefitool/common/LZMA/LzmaCompress.c.i
 
 3rd/uefitool/common/LZMA/LzmaCompress.s: 3rd/uefitool/common/LZMA/LzmaCompress.c.s
@@ -181,8 +181,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/LZMA/LzmaCompress.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaCompress.c.s
 .PHONY : 3rd/uefitool/common/LZMA/LzmaCompress.c.s
 
 3rd/uefitool/common/LZMA/LzmaDecompress.o: 3rd/uefitool/common/LZMA/LzmaDecompress.c.o
@@ -190,8 +190,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/LZMA/LzmaDecompress.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.o
 .PHONY : 3rd/uefitool/common/LZMA/LzmaDecompress.c.o
 
 3rd/uefitool/common/LZMA/LzmaDecompress.i: 3rd/uefitool/common/LZMA/LzmaDecompress.c.i
@@ -199,8 +199,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/LZMA/LzmaDecompress.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.i
 .PHONY : 3rd/uefitool/common/LZMA/LzmaDecompress.c.i
 
 3rd/uefitool/common/LZMA/LzmaDecompress.s: 3rd/uefitool/common/LZMA/LzmaDecompress.c.s
@@ -208,8 +208,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/LZMA/LzmaDecompress.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/LzmaDecompress.c.s
 .PHONY : 3rd/uefitool/common/LZMA/LzmaDecompress.c.s
 
 3rd/uefitool/common/LZMA/SDK/C/Bra.o: 3rd/uefitool/common/LZMA/SDK/C/Bra.c.o
@@ -217,8 +217,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/LZMA/SDK/C/Bra.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.o
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/Bra.c.o
 
 3rd/uefitool/common/LZMA/SDK/C/Bra.i: 3rd/uefitool/common/LZMA/SDK/C/Bra.c.i
@@ -226,8 +226,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/LZMA/SDK/C/Bra.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.i
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/Bra.c.i
 
 3rd/uefitool/common/LZMA/SDK/C/Bra.s: 3rd/uefitool/common/LZMA/SDK/C/Bra.c.s
@@ -235,8 +235,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/LZMA/SDK/C/Bra.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra.c.s
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/Bra.c.s
 
 3rd/uefitool/common/LZMA/SDK/C/Bra86.o: 3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o
@@ -244,8 +244,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/Bra86.c.o
 
 3rd/uefitool/common/LZMA/SDK/C/Bra86.i: 3rd/uefitool/common/LZMA/SDK/C/Bra86.c.i
@@ -253,8 +253,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/LZMA/SDK/C/Bra86.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.i
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/Bra86.c.i
 
 3rd/uefitool/common/LZMA/SDK/C/Bra86.s: 3rd/uefitool/common/LZMA/SDK/C/Bra86.c.s
@@ -262,8 +262,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/LZMA/SDK/C/Bra86.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/Bra86.c.s
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/Bra86.c.s
 
 3rd/uefitool/common/LZMA/SDK/C/CpuArch.o: 3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o
@@ -271,8 +271,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.o
 
 3rd/uefitool/common/LZMA/SDK/C/CpuArch.i: 3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.i
@@ -280,8 +280,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.i
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.i
 
 3rd/uefitool/common/LZMA/SDK/C/CpuArch.s: 3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.s
@@ -289,8 +289,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.s
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/CpuArch.c.s
 
 3rd/uefitool/common/LZMA/SDK/C/LzFind.o: 3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o
@@ -298,8 +298,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/LzFind.c.o
 
 3rd/uefitool/common/LZMA/SDK/C/LzFind.i: 3rd/uefitool/common/LZMA/SDK/C/LzFind.c.i
@@ -307,8 +307,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/LZMA/SDK/C/LzFind.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.i
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/LzFind.c.i
 
 3rd/uefitool/common/LZMA/SDK/C/LzFind.s: 3rd/uefitool/common/LZMA/SDK/C/LzFind.c.s
@@ -316,8 +316,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/LZMA/SDK/C/LzFind.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzFind.c.s
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/LzFind.c.s
 
 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.o: 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o
@@ -325,8 +325,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.o
 
 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.i: 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.i
@@ -334,8 +334,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.i
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.i
 
 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.s: 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.s
@@ -343,8 +343,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.s
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/LzmaDec.c.s
 
 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.o: 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o
@@ -352,8 +352,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.o
 
 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.i: 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.i
@@ -361,8 +361,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.i
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.i
 
 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.s: 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.s
@@ -370,8 +370,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.s
 .PHONY : 3rd/uefitool/common/LZMA/SDK/C/LzmaEnc.c.s
 
 3rd/uefitool/common/Tiano/EfiTianoCompress.o: 3rd/uefitool/common/Tiano/EfiTianoCompress.c.o
@@ -379,8 +379,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/Tiano/EfiTianoCompress.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.o
 .PHONY : 3rd/uefitool/common/Tiano/EfiTianoCompress.c.o
 
 3rd/uefitool/common/Tiano/EfiTianoCompress.i: 3rd/uefitool/common/Tiano/EfiTianoCompress.c.i
@@ -388,8 +388,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/Tiano/EfiTianoCompress.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.i
 .PHONY : 3rd/uefitool/common/Tiano/EfiTianoCompress.c.i
 
 3rd/uefitool/common/Tiano/EfiTianoCompress.s: 3rd/uefitool/common/Tiano/EfiTianoCompress.c.s
@@ -397,8 +397,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/Tiano/EfiTianoCompress.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompress.c.s
 .PHONY : 3rd/uefitool/common/Tiano/EfiTianoCompress.c.s
 
 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.o: 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o
@@ -406,8 +406,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o
 .PHONY : 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.o
 
 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.i: 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.i
@@ -415,8 +415,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.i
 .PHONY : 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.i
 
 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.s: 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.s
@@ -424,8 +424,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.s
 .PHONY : 3rd/uefitool/common/Tiano/EfiTianoCompressLegacy.c.s
 
 3rd/uefitool/common/Tiano/EfiTianoDecompress.o: 3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o
@@ -433,8 +433,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o
 .PHONY : 3rd/uefitool/common/Tiano/EfiTianoDecompress.c.o
 
 3rd/uefitool/common/Tiano/EfiTianoDecompress.i: 3rd/uefitool/common/Tiano/EfiTianoDecompress.c.i
@@ -442,8 +442,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/Tiano/EfiTianoDecompress.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.i
 .PHONY : 3rd/uefitool/common/Tiano/EfiTianoDecompress.c.i
 
 3rd/uefitool/common/Tiano/EfiTianoDecompress.s: 3rd/uefitool/common/Tiano/EfiTianoDecompress.c.s
@@ -451,8 +451,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/Tiano/EfiTianoDecompress.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/Tiano/EfiTianoDecompress.c.s
 .PHONY : 3rd/uefitool/common/Tiano/EfiTianoDecompress.c.s
 
 3rd/uefitool/common/bstrlib/bstrlib.o: 3rd/uefitool/common/bstrlib/bstrlib.c.o
@@ -460,8 +460,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/bstrlib/bstrlib.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrlib.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrlib.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrlib.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrlib.c.o
 .PHONY : 3rd/uefitool/common/bstrlib/bstrlib.c.o
 
 3rd/uefitool/common/bstrlib/bstrlib.i: 3rd/uefitool/common/bstrlib/bstrlib.c.i
@@ -469,8 +469,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/bstrlib/bstrlib.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrlib.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrlib.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrlib.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrlib.c.i
 .PHONY : 3rd/uefitool/common/bstrlib/bstrlib.c.i
 
 3rd/uefitool/common/bstrlib/bstrlib.s: 3rd/uefitool/common/bstrlib/bstrlib.c.s
@@ -478,8 +478,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/bstrlib/bstrlib.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrlib.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrlib.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrlib.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrlib.c.s
 .PHONY : 3rd/uefitool/common/bstrlib/bstrlib.c.s
 
 3rd/uefitool/common/bstrlib/bstrwrap.o: 3rd/uefitool/common/bstrlib/bstrwrap.cpp.o
@@ -487,8 +487,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/bstrlib/bstrwrap.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.o
 .PHONY : 3rd/uefitool/common/bstrlib/bstrwrap.cpp.o
 
 3rd/uefitool/common/bstrlib/bstrwrap.i: 3rd/uefitool/common/bstrlib/bstrwrap.cpp.i
@@ -496,8 +496,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/bstrlib/bstrwrap.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.i
 .PHONY : 3rd/uefitool/common/bstrlib/bstrwrap.cpp.i
 
 3rd/uefitool/common/bstrlib/bstrwrap.s: 3rd/uefitool/common/bstrlib/bstrwrap.cpp.s
@@ -505,8 +505,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/bstrlib/bstrwrap.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/bstrlib/bstrwrap.cpp.s
 .PHONY : 3rd/uefitool/common/bstrlib/bstrwrap.cpp.s
 
 3rd/uefitool/common/descriptor.o: 3rd/uefitool/common/descriptor.cpp.o
@@ -514,8 +514,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/descriptor.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/descriptor.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/descriptor.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/descriptor.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/descriptor.cpp.o
 .PHONY : 3rd/uefitool/common/descriptor.cpp.o
 
 3rd/uefitool/common/descriptor.i: 3rd/uefitool/common/descriptor.cpp.i
@@ -523,8 +523,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/descriptor.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/descriptor.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/descriptor.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/descriptor.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/descriptor.cpp.i
 .PHONY : 3rd/uefitool/common/descriptor.cpp.i
 
 3rd/uefitool/common/descriptor.s: 3rd/uefitool/common/descriptor.cpp.s
@@ -532,8 +532,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/descriptor.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/descriptor.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/descriptor.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/descriptor.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/descriptor.cpp.s
 .PHONY : 3rd/uefitool/common/descriptor.cpp.s
 
 3rd/uefitool/common/digest/sha1.o: 3rd/uefitool/common/digest/sha1.c.o
@@ -541,8 +541,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/digest/sha1.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha1.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha1.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha1.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha1.c.o
 .PHONY : 3rd/uefitool/common/digest/sha1.c.o
 
 3rd/uefitool/common/digest/sha1.i: 3rd/uefitool/common/digest/sha1.c.i
@@ -550,8 +550,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/digest/sha1.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha1.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha1.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha1.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha1.c.i
 .PHONY : 3rd/uefitool/common/digest/sha1.c.i
 
 3rd/uefitool/common/digest/sha1.s: 3rd/uefitool/common/digest/sha1.c.s
@@ -559,8 +559,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/digest/sha1.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha1.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha1.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha1.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha1.c.s
 .PHONY : 3rd/uefitool/common/digest/sha1.c.s
 
 3rd/uefitool/common/digest/sha256.o: 3rd/uefitool/common/digest/sha256.c.o
@@ -568,8 +568,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/digest/sha256.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha256.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha256.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha256.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha256.c.o
 .PHONY : 3rd/uefitool/common/digest/sha256.c.o
 
 3rd/uefitool/common/digest/sha256.i: 3rd/uefitool/common/digest/sha256.c.i
@@ -577,8 +577,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/digest/sha256.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha256.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha256.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha256.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha256.c.i
 .PHONY : 3rd/uefitool/common/digest/sha256.c.i
 
 3rd/uefitool/common/digest/sha256.s: 3rd/uefitool/common/digest/sha256.c.s
@@ -586,8 +586,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/digest/sha256.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha256.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha256.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha256.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha256.c.s
 .PHONY : 3rd/uefitool/common/digest/sha256.c.s
 
 3rd/uefitool/common/digest/sha512.o: 3rd/uefitool/common/digest/sha512.c.o
@@ -595,8 +595,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/digest/sha512.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha512.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha512.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha512.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha512.c.o
 .PHONY : 3rd/uefitool/common/digest/sha512.c.o
 
 3rd/uefitool/common/digest/sha512.i: 3rd/uefitool/common/digest/sha512.c.i
@@ -604,8 +604,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/digest/sha512.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha512.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha512.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha512.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha512.c.i
 .PHONY : 3rd/uefitool/common/digest/sha512.c.i
 
 3rd/uefitool/common/digest/sha512.s: 3rd/uefitool/common/digest/sha512.c.s
@@ -613,8 +613,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/digest/sha512.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha512.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha512.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sha512.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sha512.c.s
 .PHONY : 3rd/uefitool/common/digest/sha512.c.s
 
 3rd/uefitool/common/digest/sm3.o: 3rd/uefitool/common/digest/sm3.c.o
@@ -622,8 +622,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/digest/sm3.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sm3.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sm3.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sm3.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sm3.c.o
 .PHONY : 3rd/uefitool/common/digest/sm3.c.o
 
 3rd/uefitool/common/digest/sm3.i: 3rd/uefitool/common/digest/sm3.c.i
@@ -631,8 +631,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/digest/sm3.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sm3.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sm3.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sm3.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sm3.c.i
 .PHONY : 3rd/uefitool/common/digest/sm3.c.i
 
 3rd/uefitool/common/digest/sm3.s: 3rd/uefitool/common/digest/sm3.c.s
@@ -640,8 +640,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/digest/sm3.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sm3.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sm3.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/digest/sm3.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/digest/sm3.c.s
 .PHONY : 3rd/uefitool/common/digest/sm3.c.s
 
 3rd/uefitool/common/ffs.o: 3rd/uefitool/common/ffs.cpp.o
@@ -649,8 +649,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/ffs.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffs.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffs.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffs.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffs.cpp.o
 .PHONY : 3rd/uefitool/common/ffs.cpp.o
 
 3rd/uefitool/common/ffs.i: 3rd/uefitool/common/ffs.cpp.i
@@ -658,8 +658,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/ffs.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffs.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffs.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffs.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffs.cpp.i
 .PHONY : 3rd/uefitool/common/ffs.cpp.i
 
 3rd/uefitool/common/ffs.s: 3rd/uefitool/common/ffs.cpp.s
@@ -667,8 +667,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/ffs.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffs.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffs.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffs.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffs.cpp.s
 .PHONY : 3rd/uefitool/common/ffs.cpp.s
 
 3rd/uefitool/common/ffsbuilder.o: 3rd/uefitool/common/ffsbuilder.cpp.o
@@ -676,8 +676,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/ffsbuilder.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsbuilder.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsbuilder.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsbuilder.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsbuilder.cpp.o
 .PHONY : 3rd/uefitool/common/ffsbuilder.cpp.o
 
 3rd/uefitool/common/ffsbuilder.i: 3rd/uefitool/common/ffsbuilder.cpp.i
@@ -685,8 +685,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/ffsbuilder.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsbuilder.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsbuilder.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsbuilder.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsbuilder.cpp.i
 .PHONY : 3rd/uefitool/common/ffsbuilder.cpp.i
 
 3rd/uefitool/common/ffsbuilder.s: 3rd/uefitool/common/ffsbuilder.cpp.s
@@ -694,8 +694,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/ffsbuilder.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsbuilder.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsbuilder.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsbuilder.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsbuilder.cpp.s
 .PHONY : 3rd/uefitool/common/ffsbuilder.cpp.s
 
 3rd/uefitool/common/ffsops.o: 3rd/uefitool/common/ffsops.cpp.o
@@ -703,8 +703,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/ffsops.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsops.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsops.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsops.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsops.cpp.o
 .PHONY : 3rd/uefitool/common/ffsops.cpp.o
 
 3rd/uefitool/common/ffsops.i: 3rd/uefitool/common/ffsops.cpp.i
@@ -712,8 +712,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/ffsops.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsops.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsops.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsops.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsops.cpp.i
 .PHONY : 3rd/uefitool/common/ffsops.cpp.i
 
 3rd/uefitool/common/ffsops.s: 3rd/uefitool/common/ffsops.cpp.s
@@ -721,8 +721,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/ffsops.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsops.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsops.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsops.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsops.cpp.s
 .PHONY : 3rd/uefitool/common/ffsops.cpp.s
 
 3rd/uefitool/common/ffsparser.o: 3rd/uefitool/common/ffsparser.cpp.o
@@ -730,8 +730,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/ffsparser.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsparser.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsparser.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsparser.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsparser.cpp.o
 .PHONY : 3rd/uefitool/common/ffsparser.cpp.o
 
 3rd/uefitool/common/ffsparser.i: 3rd/uefitool/common/ffsparser.cpp.i
@@ -739,8 +739,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/ffsparser.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsparser.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsparser.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsparser.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsparser.cpp.i
 .PHONY : 3rd/uefitool/common/ffsparser.cpp.i
 
 3rd/uefitool/common/ffsparser.s: 3rd/uefitool/common/ffsparser.cpp.s
@@ -748,8 +748,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/ffsparser.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsparser.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsparser.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsparser.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsparser.cpp.s
 .PHONY : 3rd/uefitool/common/ffsparser.cpp.s
 
 3rd/uefitool/common/ffsreport.o: 3rd/uefitool/common/ffsreport.cpp.o
@@ -757,8 +757,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/ffsreport.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsreport.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsreport.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsreport.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsreport.cpp.o
 .PHONY : 3rd/uefitool/common/ffsreport.cpp.o
 
 3rd/uefitool/common/ffsreport.i: 3rd/uefitool/common/ffsreport.cpp.i
@@ -766,8 +766,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/ffsreport.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsreport.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsreport.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsreport.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsreport.cpp.i
 .PHONY : 3rd/uefitool/common/ffsreport.cpp.i
 
 3rd/uefitool/common/ffsreport.s: 3rd/uefitool/common/ffsreport.cpp.s
@@ -775,8 +775,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/ffsreport.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsreport.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsreport.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ffsreport.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ffsreport.cpp.s
 .PHONY : 3rd/uefitool/common/ffsreport.cpp.s
 
 3rd/uefitool/common/filesystem.o: 3rd/uefitool/common/filesystem.cpp.o
@@ -784,8 +784,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/filesystem.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/filesystem.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/filesystem.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/filesystem.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/filesystem.cpp.o
 .PHONY : 3rd/uefitool/common/filesystem.cpp.o
 
 3rd/uefitool/common/filesystem.i: 3rd/uefitool/common/filesystem.cpp.i
@@ -793,8 +793,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/filesystem.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/filesystem.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/filesystem.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/filesystem.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/filesystem.cpp.i
 .PHONY : 3rd/uefitool/common/filesystem.cpp.i
 
 3rd/uefitool/common/filesystem.s: 3rd/uefitool/common/filesystem.cpp.s
@@ -802,8 +802,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/filesystem.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/filesystem.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/filesystem.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/filesystem.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/filesystem.cpp.s
 .PHONY : 3rd/uefitool/common/filesystem.cpp.s
 
 3rd/uefitool/common/fitparser.o: 3rd/uefitool/common/fitparser.cpp.o
@@ -811,8 +811,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/fitparser.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/fitparser.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/fitparser.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/fitparser.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/fitparser.cpp.o
 .PHONY : 3rd/uefitool/common/fitparser.cpp.o
 
 3rd/uefitool/common/fitparser.i: 3rd/uefitool/common/fitparser.cpp.i
@@ -820,8 +820,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/fitparser.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/fitparser.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/fitparser.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/fitparser.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/fitparser.cpp.i
 .PHONY : 3rd/uefitool/common/fitparser.cpp.i
 
 3rd/uefitool/common/fitparser.s: 3rd/uefitool/common/fitparser.cpp.s
@@ -829,8 +829,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/fitparser.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/fitparser.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/fitparser.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/fitparser.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/fitparser.cpp.s
 .PHONY : 3rd/uefitool/common/fitparser.cpp.s
 
 3rd/uefitool/common/guiddatabase.o: 3rd/uefitool/common/guiddatabase.cpp.o
@@ -838,8 +838,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/guiddatabase.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/guiddatabase.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/guiddatabase.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/guiddatabase.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/guiddatabase.cpp.o
 .PHONY : 3rd/uefitool/common/guiddatabase.cpp.o
 
 3rd/uefitool/common/guiddatabase.i: 3rd/uefitool/common/guiddatabase.cpp.i
@@ -847,8 +847,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/guiddatabase.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/guiddatabase.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/guiddatabase.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/guiddatabase.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/guiddatabase.cpp.i
 .PHONY : 3rd/uefitool/common/guiddatabase.cpp.i
 
 3rd/uefitool/common/guiddatabase.s: 3rd/uefitool/common/guiddatabase.cpp.s
@@ -856,8 +856,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/guiddatabase.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/guiddatabase.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/guiddatabase.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/guiddatabase.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/guiddatabase.cpp.s
 .PHONY : 3rd/uefitool/common/guiddatabase.cpp.s
 
 3rd/uefitool/common/meparser.o: 3rd/uefitool/common/meparser.cpp.o
@@ -865,8 +865,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/meparser.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/meparser.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/meparser.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/meparser.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/meparser.cpp.o
 .PHONY : 3rd/uefitool/common/meparser.cpp.o
 
 3rd/uefitool/common/meparser.i: 3rd/uefitool/common/meparser.cpp.i
@@ -874,8 +874,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/meparser.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/meparser.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/meparser.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/meparser.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/meparser.cpp.i
 .PHONY : 3rd/uefitool/common/meparser.cpp.i
 
 3rd/uefitool/common/meparser.s: 3rd/uefitool/common/meparser.cpp.s
@@ -883,8 +883,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/meparser.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/meparser.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/meparser.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/meparser.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/meparser.cpp.s
 .PHONY : 3rd/uefitool/common/meparser.cpp.s
 
 3rd/uefitool/common/nvram.o: 3rd/uefitool/common/nvram.cpp.o
@@ -892,8 +892,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/nvram.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvram.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvram.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvram.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvram.cpp.o
 .PHONY : 3rd/uefitool/common/nvram.cpp.o
 
 3rd/uefitool/common/nvram.i: 3rd/uefitool/common/nvram.cpp.i
@@ -901,8 +901,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/nvram.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvram.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvram.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvram.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvram.cpp.i
 .PHONY : 3rd/uefitool/common/nvram.cpp.i
 
 3rd/uefitool/common/nvram.s: 3rd/uefitool/common/nvram.cpp.s
@@ -910,8 +910,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/nvram.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvram.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvram.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvram.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvram.cpp.s
 .PHONY : 3rd/uefitool/common/nvram.cpp.s
 
 3rd/uefitool/common/nvramparser.o: 3rd/uefitool/common/nvramparser.cpp.o
@@ -919,8 +919,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/nvramparser.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvramparser.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvramparser.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvramparser.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvramparser.cpp.o
 .PHONY : 3rd/uefitool/common/nvramparser.cpp.o
 
 3rd/uefitool/common/nvramparser.i: 3rd/uefitool/common/nvramparser.cpp.i
@@ -928,8 +928,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/nvramparser.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvramparser.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvramparser.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvramparser.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvramparser.cpp.i
 .PHONY : 3rd/uefitool/common/nvramparser.cpp.i
 
 3rd/uefitool/common/nvramparser.s: 3rd/uefitool/common/nvramparser.cpp.s
@@ -937,8 +937,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/nvramparser.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvramparser.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvramparser.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/nvramparser.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/nvramparser.cpp.s
 .PHONY : 3rd/uefitool/common/nvramparser.cpp.s
 
 3rd/uefitool/common/peimage.o: 3rd/uefitool/common/peimage.cpp.o
@@ -946,8 +946,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/peimage.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/peimage.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/peimage.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/peimage.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/peimage.cpp.o
 .PHONY : 3rd/uefitool/common/peimage.cpp.o
 
 3rd/uefitool/common/peimage.i: 3rd/uefitool/common/peimage.cpp.i
@@ -955,8 +955,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/peimage.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/peimage.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/peimage.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/peimage.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/peimage.cpp.i
 .PHONY : 3rd/uefitool/common/peimage.cpp.i
 
 3rd/uefitool/common/peimage.s: 3rd/uefitool/common/peimage.cpp.s
@@ -964,8 +964,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/peimage.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/peimage.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/peimage.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/peimage.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/peimage.cpp.s
 .PHONY : 3rd/uefitool/common/peimage.cpp.s
 
 3rd/uefitool/common/treeitem.o: 3rd/uefitool/common/treeitem.cpp.o
@@ -973,8 +973,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/treeitem.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treeitem.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treeitem.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treeitem.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treeitem.cpp.o
 .PHONY : 3rd/uefitool/common/treeitem.cpp.o
 
 3rd/uefitool/common/treeitem.i: 3rd/uefitool/common/treeitem.cpp.i
@@ -982,8 +982,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/treeitem.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treeitem.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treeitem.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treeitem.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treeitem.cpp.i
 .PHONY : 3rd/uefitool/common/treeitem.cpp.i
 
 3rd/uefitool/common/treeitem.s: 3rd/uefitool/common/treeitem.cpp.s
@@ -991,8 +991,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/treeitem.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treeitem.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treeitem.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treeitem.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treeitem.cpp.s
 .PHONY : 3rd/uefitool/common/treeitem.cpp.s
 
 3rd/uefitool/common/treemodel.o: 3rd/uefitool/common/treemodel.cpp.o
@@ -1000,8 +1000,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/treemodel.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treemodel.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treemodel.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treemodel.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treemodel.cpp.o
 .PHONY : 3rd/uefitool/common/treemodel.cpp.o
 
 3rd/uefitool/common/treemodel.i: 3rd/uefitool/common/treemodel.cpp.i
@@ -1009,8 +1009,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/treemodel.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treemodel.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treemodel.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treemodel.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treemodel.cpp.i
 .PHONY : 3rd/uefitool/common/treemodel.cpp.i
 
 3rd/uefitool/common/treemodel.s: 3rd/uefitool/common/treemodel.cpp.s
@@ -1018,8 +1018,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/treemodel.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treemodel.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treemodel.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/treemodel.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/treemodel.cpp.s
 .PHONY : 3rd/uefitool/common/treemodel.cpp.s
 
 3rd/uefitool/common/types.o: 3rd/uefitool/common/types.cpp.o
@@ -1027,8 +1027,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/types.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/types.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/types.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/types.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/types.cpp.o
 .PHONY : 3rd/uefitool/common/types.cpp.o
 
 3rd/uefitool/common/types.i: 3rd/uefitool/common/types.cpp.i
@@ -1036,8 +1036,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/types.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/types.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/types.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/types.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/types.cpp.i
 .PHONY : 3rd/uefitool/common/types.cpp.i
 
 3rd/uefitool/common/types.s: 3rd/uefitool/common/types.cpp.s
@@ -1045,8 +1045,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/types.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/types.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/types.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/types.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/types.cpp.s
 .PHONY : 3rd/uefitool/common/types.cpp.s
 
 3rd/uefitool/common/ustring.o: 3rd/uefitool/common/ustring.cpp.o
@@ -1054,8 +1054,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/ustring.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ustring.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ustring.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ustring.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ustring.cpp.o
 .PHONY : 3rd/uefitool/common/ustring.cpp.o
 
 3rd/uefitool/common/ustring.i: 3rd/uefitool/common/ustring.cpp.i
@@ -1063,8 +1063,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/ustring.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ustring.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ustring.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ustring.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ustring.cpp.i
 .PHONY : 3rd/uefitool/common/ustring.cpp.i
 
 3rd/uefitool/common/ustring.s: 3rd/uefitool/common/ustring.cpp.s
@@ -1072,8 +1072,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/ustring.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ustring.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ustring.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/ustring.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/ustring.cpp.s
 .PHONY : 3rd/uefitool/common/ustring.cpp.s
 
 3rd/uefitool/common/utility.o: 3rd/uefitool/common/utility.cpp.o
@@ -1081,8 +1081,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/utility.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/utility.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/utility.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/utility.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/utility.cpp.o
 .PHONY : 3rd/uefitool/common/utility.cpp.o
 
 3rd/uefitool/common/utility.i: 3rd/uefitool/common/utility.cpp.i
@@ -1090,8 +1090,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/utility.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/utility.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/utility.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/utility.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/utility.cpp.i
 .PHONY : 3rd/uefitool/common/utility.cpp.i
 
 3rd/uefitool/common/utility.s: 3rd/uefitool/common/utility.cpp.s
@@ -1099,8 +1099,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/utility.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/utility.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/utility.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/utility.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/utility.cpp.s
 .PHONY : 3rd/uefitool/common/utility.cpp.s
 
 3rd/uefitool/common/zlib/adler32.o: 3rd/uefitool/common/zlib/adler32.c.o
@@ -1108,8 +1108,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/adler32.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/adler32.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/adler32.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/adler32.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/adler32.c.o
 .PHONY : 3rd/uefitool/common/zlib/adler32.c.o
 
 3rd/uefitool/common/zlib/adler32.i: 3rd/uefitool/common/zlib/adler32.c.i
@@ -1117,8 +1117,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/adler32.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/adler32.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/adler32.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/adler32.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/adler32.c.i
 .PHONY : 3rd/uefitool/common/zlib/adler32.c.i
 
 3rd/uefitool/common/zlib/adler32.s: 3rd/uefitool/common/zlib/adler32.c.s
@@ -1126,8 +1126,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/adler32.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/adler32.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/adler32.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/adler32.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/adler32.c.s
 .PHONY : 3rd/uefitool/common/zlib/adler32.c.s
 
 3rd/uefitool/common/zlib/compress.o: 3rd/uefitool/common/zlib/compress.c.o
@@ -1135,8 +1135,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/compress.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/compress.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/compress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/compress.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/compress.c.o
 .PHONY : 3rd/uefitool/common/zlib/compress.c.o
 
 3rd/uefitool/common/zlib/compress.i: 3rd/uefitool/common/zlib/compress.c.i
@@ -1144,8 +1144,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/compress.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/compress.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/compress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/compress.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/compress.c.i
 .PHONY : 3rd/uefitool/common/zlib/compress.c.i
 
 3rd/uefitool/common/zlib/compress.s: 3rd/uefitool/common/zlib/compress.c.s
@@ -1153,8 +1153,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/compress.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/compress.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/compress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/compress.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/compress.c.s
 .PHONY : 3rd/uefitool/common/zlib/compress.c.s
 
 3rd/uefitool/common/zlib/crc32.o: 3rd/uefitool/common/zlib/crc32.c.o
@@ -1162,8 +1162,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/crc32.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/crc32.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/crc32.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/crc32.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/crc32.c.o
 .PHONY : 3rd/uefitool/common/zlib/crc32.c.o
 
 3rd/uefitool/common/zlib/crc32.i: 3rd/uefitool/common/zlib/crc32.c.i
@@ -1171,8 +1171,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/crc32.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/crc32.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/crc32.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/crc32.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/crc32.c.i
 .PHONY : 3rd/uefitool/common/zlib/crc32.c.i
 
 3rd/uefitool/common/zlib/crc32.s: 3rd/uefitool/common/zlib/crc32.c.s
@@ -1180,8 +1180,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/crc32.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/crc32.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/crc32.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/crc32.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/crc32.c.s
 .PHONY : 3rd/uefitool/common/zlib/crc32.c.s
 
 3rd/uefitool/common/zlib/deflate.o: 3rd/uefitool/common/zlib/deflate.c.o
@@ -1189,8 +1189,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/deflate.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/deflate.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/deflate.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/deflate.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/deflate.c.o
 .PHONY : 3rd/uefitool/common/zlib/deflate.c.o
 
 3rd/uefitool/common/zlib/deflate.i: 3rd/uefitool/common/zlib/deflate.c.i
@@ -1198,8 +1198,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/deflate.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/deflate.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/deflate.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/deflate.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/deflate.c.i
 .PHONY : 3rd/uefitool/common/zlib/deflate.c.i
 
 3rd/uefitool/common/zlib/deflate.s: 3rd/uefitool/common/zlib/deflate.c.s
@@ -1207,8 +1207,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/deflate.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/deflate.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/deflate.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/deflate.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/deflate.c.s
 .PHONY : 3rd/uefitool/common/zlib/deflate.c.s
 
 3rd/uefitool/common/zlib/gzclose.o: 3rd/uefitool/common/zlib/gzclose.c.o
@@ -1216,8 +1216,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/gzclose.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzclose.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzclose.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzclose.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzclose.c.o
 .PHONY : 3rd/uefitool/common/zlib/gzclose.c.o
 
 3rd/uefitool/common/zlib/gzclose.i: 3rd/uefitool/common/zlib/gzclose.c.i
@@ -1225,8 +1225,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/gzclose.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzclose.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzclose.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzclose.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzclose.c.i
 .PHONY : 3rd/uefitool/common/zlib/gzclose.c.i
 
 3rd/uefitool/common/zlib/gzclose.s: 3rd/uefitool/common/zlib/gzclose.c.s
@@ -1234,8 +1234,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/gzclose.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzclose.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzclose.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzclose.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzclose.c.s
 .PHONY : 3rd/uefitool/common/zlib/gzclose.c.s
 
 3rd/uefitool/common/zlib/gzlib.o: 3rd/uefitool/common/zlib/gzlib.c.o
@@ -1243,8 +1243,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/gzlib.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzlib.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzlib.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzlib.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzlib.c.o
 .PHONY : 3rd/uefitool/common/zlib/gzlib.c.o
 
 3rd/uefitool/common/zlib/gzlib.i: 3rd/uefitool/common/zlib/gzlib.c.i
@@ -1252,8 +1252,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/gzlib.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzlib.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzlib.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzlib.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzlib.c.i
 .PHONY : 3rd/uefitool/common/zlib/gzlib.c.i
 
 3rd/uefitool/common/zlib/gzlib.s: 3rd/uefitool/common/zlib/gzlib.c.s
@@ -1261,8 +1261,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/gzlib.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzlib.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzlib.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzlib.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzlib.c.s
 .PHONY : 3rd/uefitool/common/zlib/gzlib.c.s
 
 3rd/uefitool/common/zlib/gzread.o: 3rd/uefitool/common/zlib/gzread.c.o
@@ -1270,8 +1270,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/gzread.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzread.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzread.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzread.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzread.c.o
 .PHONY : 3rd/uefitool/common/zlib/gzread.c.o
 
 3rd/uefitool/common/zlib/gzread.i: 3rd/uefitool/common/zlib/gzread.c.i
@@ -1279,8 +1279,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/gzread.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzread.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzread.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzread.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzread.c.i
 .PHONY : 3rd/uefitool/common/zlib/gzread.c.i
 
 3rd/uefitool/common/zlib/gzread.s: 3rd/uefitool/common/zlib/gzread.c.s
@@ -1288,8 +1288,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/gzread.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzread.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzread.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzread.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzread.c.s
 .PHONY : 3rd/uefitool/common/zlib/gzread.c.s
 
 3rd/uefitool/common/zlib/gzwrite.o: 3rd/uefitool/common/zlib/gzwrite.c.o
@@ -1297,8 +1297,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/gzwrite.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzwrite.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzwrite.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzwrite.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzwrite.c.o
 .PHONY : 3rd/uefitool/common/zlib/gzwrite.c.o
 
 3rd/uefitool/common/zlib/gzwrite.i: 3rd/uefitool/common/zlib/gzwrite.c.i
@@ -1306,8 +1306,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/gzwrite.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzwrite.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzwrite.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzwrite.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzwrite.c.i
 .PHONY : 3rd/uefitool/common/zlib/gzwrite.c.i
 
 3rd/uefitool/common/zlib/gzwrite.s: 3rd/uefitool/common/zlib/gzwrite.c.s
@@ -1315,8 +1315,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/gzwrite.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzwrite.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzwrite.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/gzwrite.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/gzwrite.c.s
 .PHONY : 3rd/uefitool/common/zlib/gzwrite.c.s
 
 3rd/uefitool/common/zlib/infback.o: 3rd/uefitool/common/zlib/infback.c.o
@@ -1324,8 +1324,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/infback.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/infback.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/infback.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/infback.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/infback.c.o
 .PHONY : 3rd/uefitool/common/zlib/infback.c.o
 
 3rd/uefitool/common/zlib/infback.i: 3rd/uefitool/common/zlib/infback.c.i
@@ -1333,8 +1333,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/infback.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/infback.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/infback.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/infback.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/infback.c.i
 .PHONY : 3rd/uefitool/common/zlib/infback.c.i
 
 3rd/uefitool/common/zlib/infback.s: 3rd/uefitool/common/zlib/infback.c.s
@@ -1342,8 +1342,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/infback.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/infback.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/infback.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/infback.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/infback.c.s
 .PHONY : 3rd/uefitool/common/zlib/infback.c.s
 
 3rd/uefitool/common/zlib/inffast.o: 3rd/uefitool/common/zlib/inffast.c.o
@@ -1351,8 +1351,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/inffast.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inffast.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inffast.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inffast.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inffast.c.o
 .PHONY : 3rd/uefitool/common/zlib/inffast.c.o
 
 3rd/uefitool/common/zlib/inffast.i: 3rd/uefitool/common/zlib/inffast.c.i
@@ -1360,8 +1360,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/inffast.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inffast.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inffast.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inffast.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inffast.c.i
 .PHONY : 3rd/uefitool/common/zlib/inffast.c.i
 
 3rd/uefitool/common/zlib/inffast.s: 3rd/uefitool/common/zlib/inffast.c.s
@@ -1369,8 +1369,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/inffast.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inffast.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inffast.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inffast.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inffast.c.s
 .PHONY : 3rd/uefitool/common/zlib/inffast.c.s
 
 3rd/uefitool/common/zlib/inflate.o: 3rd/uefitool/common/zlib/inflate.c.o
@@ -1378,8 +1378,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/inflate.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inflate.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inflate.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inflate.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inflate.c.o
 .PHONY : 3rd/uefitool/common/zlib/inflate.c.o
 
 3rd/uefitool/common/zlib/inflate.i: 3rd/uefitool/common/zlib/inflate.c.i
@@ -1387,8 +1387,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/inflate.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inflate.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inflate.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inflate.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inflate.c.i
 .PHONY : 3rd/uefitool/common/zlib/inflate.c.i
 
 3rd/uefitool/common/zlib/inflate.s: 3rd/uefitool/common/zlib/inflate.c.s
@@ -1396,8 +1396,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/inflate.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inflate.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inflate.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inflate.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inflate.c.s
 .PHONY : 3rd/uefitool/common/zlib/inflate.c.s
 
 3rd/uefitool/common/zlib/inftrees.o: 3rd/uefitool/common/zlib/inftrees.c.o
@@ -1405,8 +1405,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/inftrees.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inftrees.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inftrees.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inftrees.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inftrees.c.o
 .PHONY : 3rd/uefitool/common/zlib/inftrees.c.o
 
 3rd/uefitool/common/zlib/inftrees.i: 3rd/uefitool/common/zlib/inftrees.c.i
@@ -1414,8 +1414,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/inftrees.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inftrees.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inftrees.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inftrees.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inftrees.c.i
 .PHONY : 3rd/uefitool/common/zlib/inftrees.c.i
 
 3rd/uefitool/common/zlib/inftrees.s: 3rd/uefitool/common/zlib/inftrees.c.s
@@ -1423,8 +1423,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/inftrees.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inftrees.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inftrees.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/inftrees.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/inftrees.c.s
 .PHONY : 3rd/uefitool/common/zlib/inftrees.c.s
 
 3rd/uefitool/common/zlib/trees.o: 3rd/uefitool/common/zlib/trees.c.o
@@ -1432,8 +1432,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/trees.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/trees.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/trees.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/trees.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/trees.c.o
 .PHONY : 3rd/uefitool/common/zlib/trees.c.o
 
 3rd/uefitool/common/zlib/trees.i: 3rd/uefitool/common/zlib/trees.c.i
@@ -1441,8 +1441,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/trees.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/trees.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/trees.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/trees.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/trees.c.i
 .PHONY : 3rd/uefitool/common/zlib/trees.c.i
 
 3rd/uefitool/common/zlib/trees.s: 3rd/uefitool/common/zlib/trees.c.s
@@ -1450,8 +1450,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/trees.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/trees.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/trees.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/trees.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/trees.c.s
 .PHONY : 3rd/uefitool/common/zlib/trees.c.s
 
 3rd/uefitool/common/zlib/uncompr.o: 3rd/uefitool/common/zlib/uncompr.c.o
@@ -1459,8 +1459,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/uncompr.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/uncompr.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/uncompr.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/uncompr.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/uncompr.c.o
 .PHONY : 3rd/uefitool/common/zlib/uncompr.c.o
 
 3rd/uefitool/common/zlib/uncompr.i: 3rd/uefitool/common/zlib/uncompr.c.i
@@ -1468,8 +1468,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/uncompr.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/uncompr.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/uncompr.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/uncompr.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/uncompr.c.i
 .PHONY : 3rd/uefitool/common/zlib/uncompr.c.i
 
 3rd/uefitool/common/zlib/uncompr.s: 3rd/uefitool/common/zlib/uncompr.c.s
@@ -1477,8 +1477,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/uncompr.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/uncompr.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/uncompr.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/uncompr.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/uncompr.c.s
 .PHONY : 3rd/uefitool/common/zlib/uncompr.c.s
 
 3rd/uefitool/common/zlib/zutil.o: 3rd/uefitool/common/zlib/zutil.c.o
@@ -1486,8 +1486,8 @@ efiXloader_lib_ea64/fast:
 
 # target to build an object file
 3rd/uefitool/common/zlib/zutil.c.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/zutil.c.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/zutil.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/zutil.c.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/zutil.c.o
 .PHONY : 3rd/uefitool/common/zlib/zutil.c.o
 
 3rd/uefitool/common/zlib/zutil.i: 3rd/uefitool/common/zlib/zutil.c.i
@@ -1495,8 +1495,8 @@ efiXloader_lib_ea64/fast:
 
 # target to preprocess a source file
 3rd/uefitool/common/zlib/zutil.c.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/zutil.c.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/zutil.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/zutil.c.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/zutil.c.i
 .PHONY : 3rd/uefitool/common/zlib/zutil.c.i
 
 3rd/uefitool/common/zlib/zutil.s: 3rd/uefitool/common/zlib/zutil.c.s
@@ -1504,8 +1504,8 @@ efiXloader_lib_ea64/fast:
 
 # target to generate assembly for a file
 3rd/uefitool/common/zlib/zutil.c.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/zutil.c.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/zutil.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/3rd/uefitool/common/zlib/zutil.c.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/3rd/uefitool/common/zlib/zutil.c.s
 .PHONY : 3rd/uefitool/common/zlib/zutil.c.s
 
 efiLoader.o: efiLoader.cpp.o
@@ -1513,9 +1513,9 @@ efiLoader.o: efiLoader.cpp.o
 
 # target to build an object file
 efiLoader.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader64.dylib.dir/build.make efiXloader/CMakeFiles/efiXloader64.dylib.dir/efiLoader.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/efiLoader.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/efiLoader.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader64.dylib.dir/build.make efiXloader/CMakeFiles/efiXloader64.dylib.dir/efiLoader.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/efiLoader.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/efiLoader.cpp.o
 .PHONY : efiLoader.cpp.o
 
 efiLoader.i: efiLoader.cpp.i
@@ -1523,9 +1523,9 @@ efiLoader.i: efiLoader.cpp.i
 
 # target to preprocess a source file
 efiLoader.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader64.dylib.dir/build.make efiXloader/CMakeFiles/efiXloader64.dylib.dir/efiLoader.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/efiLoader.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/efiLoader.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader64.dylib.dir/build.make efiXloader/CMakeFiles/efiXloader64.dylib.dir/efiLoader.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/efiLoader.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/efiLoader.cpp.i
 .PHONY : efiLoader.cpp.i
 
 efiLoader.s: efiLoader.cpp.s
@@ -1533,9 +1533,9 @@ efiLoader.s: efiLoader.cpp.s
 
 # target to generate assembly for a file
 efiLoader.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader64.dylib.dir/build.make efiXloader/CMakeFiles/efiXloader64.dylib.dir/efiLoader.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/efiLoader.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/efiLoader.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader64.dylib.dir/build.make efiXloader/CMakeFiles/efiXloader64.dylib.dir/efiLoader.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/efiLoader.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/efiLoader.cpp.s
 .PHONY : efiLoader.cpp.s
 
 pe.o: pe.cpp.o
@@ -1543,8 +1543,8 @@ pe.o: pe.cpp.o
 
 # target to build an object file
 pe.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe.cpp.o
 .PHONY : pe.cpp.o
 
 pe.i: pe.cpp.i
@@ -1552,8 +1552,8 @@ pe.i: pe.cpp.i
 
 # target to preprocess a source file
 pe.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe.cpp.i
 .PHONY : pe.cpp.i
 
 pe.s: pe.cpp.s
@@ -1561,8 +1561,8 @@ pe.s: pe.cpp.s
 
 # target to generate assembly for a file
 pe.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe.cpp.s
 .PHONY : pe.cpp.s
 
 pe_manager.o: pe_manager.cpp.o
@@ -1570,8 +1570,8 @@ pe_manager.o: pe_manager.cpp.o
 
 # target to build an object file
 pe_manager.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe_manager.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe_manager.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe_manager.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe_manager.cpp.o
 .PHONY : pe_manager.cpp.o
 
 pe_manager.i: pe_manager.cpp.i
@@ -1579,8 +1579,8 @@ pe_manager.i: pe_manager.cpp.i
 
 # target to preprocess a source file
 pe_manager.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe_manager.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe_manager.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe_manager.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe_manager.cpp.i
 .PHONY : pe_manager.cpp.i
 
 pe_manager.s: pe_manager.cpp.s
@@ -1588,8 +1588,8 @@ pe_manager.s: pe_manager.cpp.s
 
 # target to generate assembly for a file
 pe_manager.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe_manager.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe_manager.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/pe_manager.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/pe_manager.cpp.s
 .PHONY : pe_manager.cpp.s
 
 uefitool.o: uefitool.cpp.o
@@ -1597,8 +1597,8 @@ uefitool.o: uefitool.cpp.o
 
 # target to build an object file
 uefitool.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/uefitool.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/uefitool.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/uefitool.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/uefitool.cpp.o
 .PHONY : uefitool.cpp.o
 
 uefitool.i: uefitool.cpp.i
@@ -1606,8 +1606,8 @@ uefitool.i: uefitool.cpp.i
 
 # target to preprocess a source file
 uefitool.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/uefitool.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/uefitool.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/uefitool.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/uefitool.cpp.i
 .PHONY : uefitool.cpp.i
 
 uefitool.s: uefitool.cpp.s
@@ -1615,8 +1615,8 @@ uefitool.s: uefitool.cpp.s
 
 # target to generate assembly for a file
 uefitool.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/uefitool.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/uefitool.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/uefitool.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/uefitool.cpp.s
 .PHONY : uefitool.cpp.s
 
 utils.o: utils.cpp.o
@@ -1624,8 +1624,8 @@ utils.o: utils.cpp.o
 
 # target to build an object file
 utils.cpp.o:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/utils.cpp.o
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/utils.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/utils.cpp.o
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/utils.cpp.o
 .PHONY : utils.cpp.o
 
 utils.i: utils.cpp.i
@@ -1633,8 +1633,8 @@ utils.i: utils.cpp.i
 
 # target to preprocess a source file
 utils.cpp.i:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/utils.cpp.i
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/utils.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/utils.cpp.i
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/utils.cpp.i
 .PHONY : utils.cpp.i
 
 utils.s: utils.cpp.s
@@ -1642,8 +1642,8 @@ utils.s: utils.cpp.s
 
 # target to generate assembly for a file
 utils.cpp.s:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/utils.cpp.s
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/utils.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea32.dir/utils.cpp.s
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(MAKE) $(MAKESILENT) -f efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/build.make efiXloader/CMakeFiles/efiXloader_lib_ea64.dir/utils.cpp.s
 .PHONY : utils.cpp.s
 
 # Help Target
@@ -1833,6 +1833,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

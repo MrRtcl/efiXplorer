@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chenchengxi/Desktop/MyProject/efiXplorer
+# Install script for directory: /Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXplorer/cmake_install.cmake")
-  include("/Users/chenchengxi/Desktop/MyProject/efiXplorer/efiXloader/cmake_install.cmake")
+  include("/Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/efiXplorer/cmake_install.cmake")
+  include("/Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/efiXloader/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/chenchengxi/Desktop/MyProject/efiXplorer/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/chenchengxi/Desktop/MyProject/efiXplorer_/efiXplorer/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
